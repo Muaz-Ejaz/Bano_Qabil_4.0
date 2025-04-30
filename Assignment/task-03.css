@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 1px 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-btn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.nav-btn:hover {
+  background-color: #0056b3;
+}
+
+.hero-section {
+  padding: 100px;
+  background-image: url('./1.jpg');
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #fff;
+  height: 170px;
+  text-align: left;
+}
+
+span {
+  font-size: 30px;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+.btn-primary{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Boxmain {
+  display: flex;
+  justify-content: space-between; 
+  margin: 40px 100px 0 100px;
+  position: relative;
+  top: -30px; 
+}
+
+.box01, .box02, .box03 {
+  border: 1px solid black;
+  padding: 20px;
+  width: 250px;
+  background-color: #0056b3;
+  color: white;
+  border-radius: 5px;
+}
+
+.box01 a , .box02 a , .box03 a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.box01 ,.box02 , .box03{
+  position: relative;
+  bottom: 50px;
+}
+
