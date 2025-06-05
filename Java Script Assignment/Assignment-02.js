@@ -46,12 +46,21 @@ if (numberToCheck % 5 === 0) {
 
 // 6. Check if a character is a vowel or consonant
 let char = prompt("Enter a letter: ");
-char = char.toLowerCase();
-if ("aeiou".includes(char)) {
-  console.log(char + " is a vowel");
+
+if (char === "a" || char === "A") {
+    console.log(char + " is a vowel");
+} else if (char === "e" || char === "E") {
+    console.log(char + " is a vowel");
+} else if (char === "i" || char === "I") {
+    console.log(char + " is a vowel");
+} else if (char === "o" || char === "O") {
+    console.log(char + " is a vowel");
+} else if (char === "u" || char === "U") {
+    console.log(char + " is a vowel");
 } else {
-  console.log(char + " is a consonant");
+    console.log(char + " is a consonant");
 }
+
 
 // 7. Compare two numbers
 let num1 = +prompt("Enter first number: ");
