@@ -45,12 +45,22 @@ if (numberToCheck % 5 === 0) {
 }
 
 // 6. Check if a character is a vowel or consonant
-const char = prompt("Enter a letter: ");
-if ("aeiouAEIOU".includes(char)) {
-  console.log(char + " is a vowel");
+const char = prompt("Enter a single character:");
+
+if (char === 'a') {
+    console.log("The character '" + char + "' is a vowel");
+} else if (char === 'e') {
+    console.log("The character '" + char + "' is a vowel");
+} else if (char === 'i') {
+    console.log("The character '" + char + "' is a vowel");
+} else if (char === 'o') {
+    console.log("The character '" + char + "' is a vowel");
+} else if (char === 'u') {
+    console.log("The character '" + char + "' is a vowel");
 } else {
-  console.log(char + " is a consonant");
+    console.log("The character '" + char + "' is a consonant");
 }
+
 
 // 7. Compare two numbers
 const num1 = +prompt("Enter first number: ");
