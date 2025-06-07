@@ -1,5 +1,5 @@
 // 1. Check if a number is even or odd
-let number = +prompt("Enter a number: ");
+const number = +prompt("Enter a number: ");
 if (number % 2 === 0) {
   console.log(number + " is even");
 } else {
@@ -7,7 +7,7 @@ if (number % 2 === 0) {
 }
 
 // 2. Check if a number is positive, negative, or zero
-let num = +prompt("Enter a number: ");
+const num = +prompt("Enter a number: ");
 if (num > 0) {
   console.log("Number is positive");
 } else if (num < 0) {
@@ -17,7 +17,7 @@ if (num > 0) {
 }
 
 // 3. Display grade based on score
-let score = +prompt("Enter your score: ");
+const score = +prompt("Enter your score: ");
 if (score > 90) {
   console.log("Excellent");
 } else if (score > 75) {
@@ -29,7 +29,7 @@ if (score > 90) {
 }
 
 // 4. Check voting eligibility
-let age = +prompt("Enter your age: ");
+const age = +prompt("Enter your age: ");
 if (age >= 18) {
   console.log("You are eligible to vote.");
 } else {
@@ -37,7 +37,7 @@ if (age >= 18) {
 }
 
 // 5. Check if number is divisible by 5
-let numberToCheck = +prompt("Enter a number: ");
+const numberToCheck = +prompt("Enter a number: ");
 if (numberToCheck % 5 === 0) {
   console.log("Number is divisible by 5");
 } else {
@@ -45,26 +45,16 @@ if (numberToCheck % 5 === 0) {
 }
 
 // 6. Check if a character is a vowel or consonant
-let char = prompt("Enter a letter: ");
-
-if (char === "a" || char === "A") {
-    console.log(char + " is a vowel");
-} else if (char === "e" || char === "E") {
-    console.log(char + " is a vowel");
-} else if (char === "i" || char === "I") {
-    console.log(char + " is a vowel");
-} else if (char === "o" || char === "O") {
-    console.log(char + " is a vowel");
-} else if (char === "u" || char === "U") {
-    console.log(char + " is a vowel");
+const char = prompt("Enter a letter: ");
+if ("aeiouAEIOU".includes(char)) {
+  console.log(char + " is a vowel");
 } else {
-    console.log(char + " is a consonant");
+  console.log(char + " is a consonant");
 }
 
-
 // 7. Compare two numbers
-let num1 = +prompt("Enter first number: ");
-let num2 = +prompt("Enter second number: ");
+const num1 = +prompt("Enter first number: ");
+const num2 = +prompt("Enter second number: ");
 if (num1 > num2) {
   console.log("First number is greater");
 } else if (num2 > num1) {
@@ -74,7 +64,7 @@ if (num1 > num2) {
 }
 
 // 8. Check string length
-let str = prompt("Enter a word: ");
+const str = prompt("Enter a word: ");
 if (str.length > 5) {
   console.log("Word has more than 5 letters");
 } else {
@@ -82,7 +72,7 @@ if (str.length > 5) {
 }
 
 // 9. Check if a password is strong
-let password = prompt("Enter a password: ");
+const password = prompt("Enter a password: ");
 if (password.length >= 8) {
   console.log("Password is strong");
 } else {
@@ -90,7 +80,7 @@ if (password.length >= 8) {
 }
 
 // 10. Check senior citizen discount
-let personAge = +prompt("Enter your age: ");
+const personAge = +prompt("Enter your age: ");
 if (personAge >= 60) {
   console.log("You can get a discount");
 } else {
@@ -98,7 +88,7 @@ if (personAge >= 60) {
 }
 
 // 11. Check if character is uppercase or lowercase
-let letter = prompt("Enter a letter: ");
+const letter = prompt("Enter a letter: ");
 if (letter === letter.toUpperCase()) {
   console.log("Letter is uppercase");
 } else {
@@ -106,7 +96,7 @@ if (letter === letter.toUpperCase()) {
 }
 
 // 12. Validate email
-let email = prompt("Enter your email: ");
+const email = prompt("Enter your email: ");
 if (email.includes("@")) {
   console.log("Correct Email");
 } else {
